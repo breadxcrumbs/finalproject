@@ -230,19 +230,19 @@ function and ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("andgate").src = "and3.JPG"; 
+        document.getElementById("andgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/and3.JPG?raw=true"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("andgate").src = "and2.JPG";
+        document.getElementById("andgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/and2.JPG?raw=true";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("andgate").src = "and4.JPG";
+        document.getElementById("andgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/and4.JPG?raw=true";
     }
     else 
     {
-        document.getElementById("andgate").src = "and1.JPG"; 
+        document.getElementById("andgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/and1.JPG?raw=true"; 
     }
 }
 function not ()
