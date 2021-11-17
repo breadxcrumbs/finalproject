@@ -230,82 +230,82 @@ function and ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("andgate").src = "and3.JPG"; 
+        document.getElementById("andgate").src = "and3.jpg"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("andgate").src = "and2.JPG";
+        document.getElementById("andgate").src = "and2.jpg";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("andgate").src = "and4.JPG";
+        document.getElementById("andgate").src = "and4.jpg";
     }
     else 
     {
-        document.getElementById("andgate").src = "and1.JPG"; 
+        document.getElementById("andgate").src = "and1.jpg"; 
     }
 }
 function not ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("orgate").src = "not4.JPG"; 
+        document.getElementById("orgate").src = "not4.jpg"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("orgate").src = "not2.JPG";
+        document.getElementById("orgate").src = "not2.jpg";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("orgate").src = "not3.JPG";
+        document.getElementById("orgate").src = "not3.jpg";
     }
     else 
     {
-        document.getElementById("orgate").src = "not1.JPG"; 
+        document.getElementById("orgate").src = "not1.jpg"; 
     }
 }
 function xor ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("xorgate").src = "xor2.JPG"; 
+        document.getElementById("xorgate").src = "xor2.jpg"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("xorgate").src = "xor3.JPG";
+        document.getElementById("xorgate").src = "xor3.jpg";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("xorgate").src = "xor4.JPG";
+        document.getElementById("xorgate").src = "xor4.jpg";
     }
     else 
     {
-        document.getElementById("xorgate").src = "xor1.JPG"; 
+        document.getElementById("xorgate").src = "xor1.jpg"; 
     }
 }
 function or ()
 {
 if ( bool == true)
-document.getElementById("notgate").src = "realnot1.JPG";
+document.getElementById("notgate").src = "realnot1.jpg";
 else
-document.getElementById("notgate").src = "realnot2.JPG";
+document.getElementById("notgate").src = "realnot2.jpg";
 }
 function flipflop ()
 {
     var flip
     if (bool == true && bool2 == false) 
-    document.getElementById("flipgate").src = "flip2.JPG";
+    document.getElementById("flipgate").src = "flip2.jpg";
     
     else if (bool == false && bool2 == false)
-    document.getElementById("flipgate").src = "flip3.JPG";
+    document.getElementById("flipgate").src = "flip3.jpg";
 else if (bool == true && bool2 == true && flip == true)
 
 document.getElementById("flipgate").src = "flip6.JPG";
 
     else if (bool == true && bool2 == true)
-document.getElementById("flipgate").src = "flip4.JPG";
+document.getElementById("flipgate").src = "flip4.jpg";
 else if (bool == false && bool2 == true)
-document.getElementById("flipgate").src = "flip5.JPG";
+document.getElementById("flipgate").src = "flip5.jpg";
 
 
 }
