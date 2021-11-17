@@ -249,19 +249,19 @@ function not ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("orgate").src = "not4.jpg"; 
+        document.getElementById("orgate").src = "not4.JPG"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("orgate").src = "not2.jpg";
+        document.getElementById("orgate").src = "not2.JPG";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("orgate").src = "not3.jpg";
+        document.getElementById("orgate").src = "not3.JPG";
     }
     else 
     {
-        document.getElementById("orgate").src = "not1.jpg"; 
+        document.getElementById("orgate").src = "not1.JPG"; 
     }
 }
 function xor ()
