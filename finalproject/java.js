@@ -249,19 +249,19 @@ function not ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("orgate").src = "not4.jpg"; 
+        document.getElementById("orgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/not4.JPG?raw=true"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("orgate").src = "not2.jpg";
+        document.getElementById("orgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/not2.JPG?raw=true";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("orgate").src = "not3.jpg";
+        document.getElementById("orgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/not3.JPG?raw=true";
     }
     else 
     {
-        document.getElementById("orgate").src = "not1.jpg"; 
+        document.getElementById("orgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/not1.JPG?raw=true"; 
     }
 }
 function xor ()
