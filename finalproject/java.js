@@ -268,19 +268,19 @@ function xor ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("xorgate").src = "xor2.jpg"; 
+        document.getElementById("xorgate").src = "xor2.JPG"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("xorgate").src = "xor3.jpg";
+        document.getElementById("xorgate").src = "xor3.JPG";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("xorgate").src = "xor4.jpg";
+        document.getElementById("xorgate").src = "xor4.JPG";
     }
     else 
     {
-        document.getElementById("xorgate").src = "xor1.jpg"; 
+        document.getElementById("xorgate").src = "xor1.JPG"; 
     }
 }
 function or ()
