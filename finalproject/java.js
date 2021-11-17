@@ -294,18 +294,18 @@ function flipflop ()
 {
     var flip
     if (bool == true && bool2 == false) 
-    document.getElementById("flipgate").src = "flip2.jpg";
+    document.getElementById("flipgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/flip2.JPG?raw=true";
     
     else if (bool == false && bool2 == false)
-    document.getElementById("flipgate").src = "flip3.jpg";
+    document.getElementById("flipgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/flip3.JPG?raw=true";
 else if (bool == true && bool2 == true && flip == true)
 
-document.getElementById("flipgate").src = "flip6.JPG";
+document.getElementById("flipgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/flip6.JPG?raw=true";
 
     else if (bool == true && bool2 == true)
-document.getElementById("flipgate").src = "flip4.jpg";
+document.getElementById("flipgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/flip4.JPG?raw=true";
 else if (bool == false && bool2 == true)
-document.getElementById("flipgate").src = "flip5.jpg";
+document.getElementById("flipgate").src = "https://github.com/breadxcrumbs/finalproject/blob/main/finalproject/flip5.JPG?raw=true";
 
 
 }
