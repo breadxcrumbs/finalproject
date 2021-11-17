@@ -1,0 +1,156 @@
+
+  .borderr {
+
+    border-width: 1px;
+    padding-left : 1%;
+    padding-right: 1%;   
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(40,40,40);
+  }
+  .border:link {
+    color: white;
+    text-decoration: none;
+  }
+  .borderr:hover {
+    background-color: rgb(128,0,128);
+    transition-duration: 0.4s;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: rgb(40,40,40);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(161, 161, 161, 0.19);
+    color: white;
+    text-decoration: none;
+    
+  }
+  .borderrr {
+
+    border-width: 0;
+    padding-left : 1%;
+    padding-right: 1%;   
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .borderrr:link {
+    color: white;
+    text-decoration: none;
+  }
+  .borderrr:hover {
+    background-color: rgb(40,40,40);
+    transition-duration: 0.4s;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: rgb(40,40,40);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(161, 161, 161, 0.19);
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  .flex-container {
+  
+    display: flex;
+    
+  }
+ 
+  .flex-container > a {
+    
+    margin: 10px;  
+  }
+  .disabled{
+    color: white;
+    text-decoration: none;
+    margin : 10px;
+    cursor: context-menu;
+  }
+ 
+  
+  .current {
+    border-color: rgb(40,40,40);
+    border-bottom-style: solid;
+    background-color: rgb(40,40,40);
+  }
+body {
+    background-image: url("purpback.jpg");
+    background-size: fill;
+    background-attachment: fixed;
+
+    margin: auto;
+    
+    
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  background-color: transparent;
+  color: white;
+  line-height: -10.0;
+
+}
+.navbar {
+  position: fixed;
+ width: 100%;
+  top: 0;
+  background-color:rgb(40,40,40);
+  
+}
+.footer>a {
+  text-align: right;
+  float: right;
+}
+.center {
+
+ text-align: center;
+
+ 
+}
+  
+.start {
+  background-color:rgb(40,40,40);
+  color: white;
+  border-width: 0;
+  padding-left : 1%;
+  padding-right: 1%;   
+  border-radius: 12px;
+  bottom: 1000px;
+  
+}
+.start1 {
+  background-color:rgb(128,0,128);
+  color: white;
+  border-width: 0;
+  padding-left : 1%;
+  padding-right: 1%;   
+  border-radius: 12px;
+  bottom: 1000px;
+  
+}
+.godown {
+  height: 100px;
+}
+.pointer {cursor: pointer;}
+.backgroundthing {
+  background-color:rgb(40,40,40);
+  padding: 5%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(161, 161, 161, 0.19);
+  color: white;
+}
+.picture {
+  width:500px;
+}
+.backgroundthing1 {
+  background-color:rgb(40,40,40);
+  padding: 5%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(161, 161, 161, 0.19);
+
+}
+.shadows {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(161, 161, 161, 0.19);
+}

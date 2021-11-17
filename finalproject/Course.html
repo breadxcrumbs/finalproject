@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="java.js ">     
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+  $("#show").click(function(){
+    $("#navbar").slideDown("slow");
+  });
+});
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#show").click(function(){
+    $("#content").fadeIn();
+  });
+});
+
+$(document).ready(function(){
+  $("#andbutton").click(function(){
+    $("#andinfo").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#orbutton").click(function(){
+    $("#orinfo").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#xorbutton").click(function(){
+    $("#xorinfo").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#notbutton").click(function(){
+    $("#notinfo").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#flipbutton").click(function(){
+    $("#flipinfo").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#bmibutton").click(function(){
+    $("#bmiinfo").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#student4button").click(function(){
+    $("#student4info").slideToggle("slow");
+  });
+});
+
+
+
+
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href = "mystyles.css" rel="stylesheet" type="text/css">
+
+
+    <title>Course</title>
+</head>
+<body>
+    <div>
+    <div class="flex-container navbar" id = "navbar" style = "display:none">
+        
+        <a class = "col-md borderr center" href="#title">Course</a>
+        <a class = "col-md borderr center" href="#project">Projects</a>
+        <a class = "col-md borderr center" href="#concepts">Concepts</a>
+        <a class = "col-md borderr center" href="#databases">Data Bases</a>
+        <a class = "col-md borderr center" href="#Documentation">Documentation</a>
+        <a class = "col-md borderr center" href="#dev">Dev Team</a>
+      
+    </div>
+    </div>
+    
+    
+    <div  style = "height: 650px;" class = "my-5 mt-5 pt-3"  id = "title">
+    <div class = "container-fluid p-3 my-5 ">
+        <div id = "header"class = "col-md  "><h1 class="text-white display-3 center">𝓕𝓾𝓷𝓭𝓪𝓶𝓮𝓷𝓽𝓪𝓵𝓼 𝓸𝓯 𝓒𝓸𝓶𝓹𝓾𝓽𝓲𝓷𝓰</h1></div>
+    </div>
+    <div class="container ">
+        <div class = "row">
+            <div class = "col"></div>
+            <div class = "col-6">
+                <p class = "text-white center">This course is an introduction to the fundamentals of Computer Science that will provide 
+                students with a foundation for future courses in Computer Science. The course is a broad 
+                survey of the discipline through topics that allow students to understand the capabilities
+                 of computer systems in terms of: the computer architecture; operating systems and computer
+                  networks; software and software development; data organization and visualization; and the 
+                  potential of computing machines.
+                </p>
+            </div>
+            <div class = "col"></div>
+        </div >
+        <div class = "center my-5 " >
+        <button id="show" class = "start h1 my-5">Start</button></div>
+</div>
+</div>
+
+
+
+
+
+ 
+<div style = "display:none" id="content" class = "mt-5">
+  <div class = "pt-5" id="project">
+        <h1 class = "text-light text-center display-1 " >Projects</h1>
+      </div>
+        <div class="container">
+            <div class = "col ">
+            <a class = "row borderrr h1 text-center pointer" id = "andbutton"><p>And Gate</p></a>
+</div>
+
+            <div class = "center container backgroundthing  w-50 " id = "andinfo" style = "display:none" >
+              <div class="row "><h1>AND GATE</h1></div>
+              
+              <div class="row">
+                  <div class = "col">
+              <button id = "inputA" onclick = "inputA(); and()" class ="borderr h3 border-0">Input A</button></div>
+              <div class = "col ps-0"> 
+              <button id = "inputB" onclick = "inputB(); and()" class ="borderr h3 border-0">Input B</button></div>
+             </div>
+              <div class= "row">
+                  <div class = "col">
+              <img src = "and1.JPG" id = "andgate" class = "p-3">
+          </div>
+              </div>
+              <div class= row>
+                  <div class = col>
+                      <img src = "andtable.JPG">
+                  </div>
+              </div>
+  
+          </div>
+      
+          
+            <a class = "row borderrr h1 text-center pointer" id="orbutton" ><p>Or Gate</p></a>
+
+            <div style = "display:none" class = "center container backgroundthing  w-50 " id = "orinfo">
+              <div class="row "><h1>OR GATE</h1></div>
+              
+              <div class="row">
+                  <div class = "col">
+              <button id = "inputA" onclick = "inputA(); not()" class ="borderr h3 border-0">Input A</button></div>
+              <div class = "col ps-0">
+              <button id = "inputB" onclick = "inputB(); not()" class ="borderr h3 border-0">Input B</button></div>
+             </div>
+              <div class= "row">
+                  <div class = "col">
+              <img src = "not1.JPG" id = "orgate" class = "p-3">
+          </div>
+              </div>
+              <div class= row>
+                  <div class = col>
+                      <img src = "nottable.JPG">
+                  </div>
+              </div>
+              </div>
+
+            <a class = "row borderrr h1 text-center pointer" id="xorbutton"><p>XOR GATE</p></a>
+
+            <div class = "center container backgroundthing w-50 " id ="xorinfo"  style = "display:none">
+              <div class="row "><h1>XOR GATE</h1></div>
+              
+              <div class="row">
+                  <div class = "col">
+              <button id = "inputA" onclick = "inputA(); xor()" class ="borderr h3 border-0">Input A</button></div>
+              <div class = "col ps-0">
+              <button id = "inputB" onclick = "inputB(); xor()" class ="borderr h3 border-0">Input B</button></div>
+             </div>
+              <div class= "row">
+                  <div class = "col">
+              <img src = "xor1.JPG" id = "xorgate" class = "p-3">
+          </div>
+              </div>
+              <div class= row>
+                  <div class = col>
+                      <img src = "xortable.JPG">
+                  </div>
+              </div>
+              </div>
+
+
+            <a class = "row borderrr h1 text-center pointer" id="notbutton"><p>Not Gate</p></a>
+            <div class = "center container w-50 backgroundthing" id="notinfo" style = "display:none">
+              <div class="row "><h1>NOT GATE</h1></div>
+              
+              <div class="row">
+                  <div class = "col">
+              <button id = "inputA" onclick = "inputA(); or()" class ="borderr h3 border-0">Input A</button></div>
+             
+             </div>
+              <div class= "row">
+                  <div class = "col">
+              <img src = "realnot2.JPG" id = "notgate" class = "p-3">
+          </div>
+              </div>
+              <div class= row>
+                  <div class = col>
+                      <img src = "realnottable.JPG">
+                  </div>
+              </div>
+              </div>
+
+            <a class = "row borderrr h1 text-center pointer" id="flipbutton" ><p>Flip-Flop Gate</p></a>
+            <div class = "center container w-50 backgroundthing"id="flipinfo" style = "display:none">
+              <div class="row "><h1>FLIP-FLOP</h1></div>
+              
+              <div class="row">
+                  <div class = "col">
+              <button id = "inputA" onclick = "inputA(); flipflop(); flipy ()" class = "borderr h3 border-0">Input A</button></div>
+              <div class = "col ps-0"> 
+              <button id = "inputB" onclick = "inputB(); flipflop()" class ="borderr h3 border-0">Input B</button></div>
+             </div>
+              <div class= "row">
+                  <div class = "col">
+              <img src = "flipflop1.JPG" id = "flipgate" class = "p-3 picture">
+          </div>
+              </div>
+
+  
+          </div>
+
+            <a class = "row borderrr h1 text-center pointer" id="bmibutton"><p>BMI Calculator</p> </a>
+            <div class = "center container w-50 h-100 backgroundthing" id="bmiinfo" style = "display:none">
+              <div class="row "><h1>BMI CALCULATOR</h1></div>
+              <div class = "row">
+          <p>Enter Your Height</p>
+          </div>
+          <div class = "row">
+              <div class = "col">
+          <input type = "number" placeholder="inches" id = "he">
+          </div>
+          </div>
+          <div class = "row">
+              <p>Enter Your Weight</p>
+          </div>
+          <div class = "row">
+              <div class = "col">
+              <input type = "number" placeholder="Pounds" id = "we">
+          </div>
+          </div>
+          <button onclick = "brother()">Calculate</button>
+              <p>Congratulations!<br>You are:</p>
+             
+              <p id = "res">--</p>
+              <p id= "demo">--</p>
+          </div>
+            <a class = "row borderrr h1 text-center pointer" id="student4button" href="#student4info"><p>Student 4</p></a>
+            <div id ="student4info" style = "display:none" class="backgroundthing1">
+              <h1 class=" text-white"> Storing Integers in Two's Complement</h1>
+  
+              <p class=" text-white">Two's Complement is a way of representing integers in bit patterns. <br>
+              In Short, each bit represents 2^n. Where 'n' is dependent on the position of the bit starting from the right hand side.<br>
+          The leftest most bit  is called a sign bit which shows whether the integer stored is a negative number (bit is equal to 1) or if its a positive number (bit is equal to 0)
+          <br>If a is 1, then that bit is equal to 2^n, but if its a 0 then that bit is equal to 0. To find the integer stored, you must find the sum of all the bits.</p>
+          <p class = "text-white">Please enter numbers between 128 to -128</p>   
+          <input type="number" id="Numb1" >
+     
+          <button class = "start1" onclick="convertx()">Convert</button>
+          <p id = bruh class=" text-white">Answer</p>
+          <div class = "container ">
+              <div class = "row ">
+                  <div class = "col bg-light border">2^7</div>
+                  <div class = "col bg-light border">2^6</div>
+                  <div class = "col bg-light border ">2^5</div>
+                  <div class = "col bg-light border">2^4</div>
+                  <div class = "col bg-light border">2^3</div>
+                  <div class = "col bg-light border">2^2</div>
+                  <div class = "col bg-light border">2^1</div>
+                  <div class = "col bg-light border">2^0</div>
+              </div>
+              <div class="row ">
+                  <div class = "col bg-light border" ><p id="8">0</p></div>
+                  <div class = "col bg-light border" ><p id="7">0</p></div>
+                  <div class = "col bg-light border" ><p id="6">0</p></div>
+                  <div class = "col bg-light border" id="5"><p>0</p></div>
+                  <div class = "col bg-light border" id="4"><p>0</p></div>
+                  <div class = "col bg-light border" id="3"><p>0</p></div>
+                  <div class = "col bg-light border" id="2"><p>0</p></div>
+                  <div class = "col bg-light border" id="1"><p>0</p></div>
+              </div>
+              <div class="row ">
+                  <div class = "col bg-light border" ><p id="h">0</p></div>
+                  <div class = "col bg-light border" ><p id="g">0</p></div>
+                  <div class = "col bg-light border" ><p id="f">0</p></div>
+                  <div class = "col bg-light border" id="e"><p>0</p></div>
+                  <div class = "col bg-light border" id="d"><p>0</p></div>
+                  <div class = "col bg-light border" id="c"><p>0</p></div>
+                  <div class = "col bg-light border" id="b"><p>0</p></div>
+                  <div class = "col bg-light border" ><p id ="a">0</p></div>
+              </div>
+  <p class=" text-white">Now to Find which number is being stored, you must add all of the numbers above.</p>
+  
+  
+  
+          </div>
+        </div>        
+        </div>
+
+        <div class = "center mt-5 mb-5 " id="concepts">
+          <div class = "pt-5" >
+          <h1 class = "center display-1 text-white">CONCEPTS</h1>
+        </div>
+          <a href = "https://drive.google.com/file/d/18B1mSCNCFHmXXIf4YxHSyZ7u4WE3UXLG/view?usp=sharing">
+              <img src = "concepts.JPG" class = "shadows">
+          </a>
+          <a href = "https://docs.google.com/presentation/d/1xnpgvdO7JWV8NbHiRIGKnHi3ej0WWc1rrrj2hKKARu0/edit?usp=sharing"><p class="text-white">Click for Slides</p>
+         </a> 
+      </div>
+
+      <div class = "center mt-5 pt-5 pb-5 mb-5" id="databases">
+        <h1 class="text-white display-1">DATABASES</h1>
+        <a href="https://youtu.be/qP3z-v8hNmI"><img src= "mysql.png"  class = "shadows"></a>
+    </div>
+
+
+    <div class = "center mt-5 pt-5 pb-5 mb-5" id="Documentation">
+      <h1 class="text-white display-1">DOCUMENTATION</h1>
+      <a href = "https://docs.google.com/document/d/1deHawmdzjVb5zmUEUMmaObGh2ObW3nFZ/edit">
+          <img src = "docu.png"  class = "shadows">
+      </a>
+  </div>
+
+  <div class = "mt-5 container" id="dev">
+    <div class = "center row"><h1 class="text-white display-1">DEV TEAM</h1></div>
+
+
+
+
+    <div class = "row">
+<div class="col ">  <img src = "me n gran.jpg" style= "width: 200px; height: 200px;"  class = "shadows"></div>
+<div class="col-8"> <p class = "text-white"> My name is Javier Castellanos and I like to eat food and sleep. I am 17 years old and I live in Belize City.<br>
+  I am studying Information Technology.</p></div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <div class="footer">
+        <p class="">@ Powered by UB</p>
+        
+      </div>
+    </div>
+</body>
+</html>
