@@ -230,19 +230,19 @@ function and ()
 {
     if (bool == true && bool2 == true)
     {
-        document.getElementById("andgate").src = "and3.jpg"; 
+        document.getElementById("andgate").src = "and3.JPG"; 
     }
     else if (bool == true && bool2 == false)
     {
-        document.getElementById("andgate").src = "and2.jpg";
+        document.getElementById("andgate").src = "and2.JPG";
     }
     else if (bool == false && bool2 == true)
     {
-        document.getElementById("andgate").src = "and4.jpg";
+        document.getElementById("andgate").src = "and4.JPG";
     }
     else 
     {
-        document.getElementById("andgate").src = "and1.jpg"; 
+        document.getElementById("andgate").src = "and1.JPG"; 
     }
 }
 function not ()
