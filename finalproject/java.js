@@ -286,26 +286,26 @@ function xor ()
 function or ()
 {
 if ( bool == true)
-document.getElementById("notgate").src = "realnot1.jpg";
+document.getElementById("notgate").src = "realnot1.JPG";
 else
-document.getElementById("notgate").src = "realnot2.jpg";
+document.getElementById("notgate").src = "realnot2.JPG";
 }
 function flipflop ()
 {
     var flip
     if (bool == true && bool2 == false) 
-    document.getElementById("flipgate").src = "flip2.jpg";
+    document.getElementById("flipgate").src = "flip2.JPG";
     
     else if (bool == false && bool2 == false)
-    document.getElementById("flipgate").src = "flip3.jpg";
+    document.getElementById("flipgate").src = "flip3.JPG";
 else if (bool == true && bool2 == true && flip == true)
 
-document.getElementById("flipgate").src = "flip6.jpg";
+document.getElementById("flipgate").src = "flip6.JPG";
 
     else if (bool == true && bool2 == true)
-document.getElementById("flipgate").src = "flip4.jpg";
+document.getElementById("flipgate").src = "flip4.JPG";
 else if (bool == false && bool2 == true)
-document.getElementById("flipgate").src = "flip5.jpg";
+document.getElementById("flipgate").src = "flip5.JPG";
 
 
 }
