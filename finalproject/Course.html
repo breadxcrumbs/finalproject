@@ -215,12 +215,19 @@ $(document).ready(function(){
             <a class = "row borderrr h1 text-center pointer" id="flipbutton" ><p>Flip-Flop Gate</p></a>
             <div class = "center container w-50 backgroundthing"id="flipinfo" style = "display:none">
               <div class="row "><h1>FLIP-FLOP</h1></div>
-              
+              <div class = "row">
+                <div class = "col h2">Input A</div>
+                <div class = "col h2">Input B</div>
+              </div>
               <div class="row">
                   <div class = "col">
-              <button id = "inputA" onclick = "inputA(); flipflop(); flipy ()" class = "start1 h3 border-0">Input A</button></div>
+              <button id = "inputA" onclick = "firston ()" class = "start1 h3 border-0">On</button></div>
+              <div class = "col">
+                <button id = "inputA" onclick = "firstoff ()" class = "start1 h3 border-0">off</button></div>
+                <div class = "col">
+                  <button id = "inputA" onclick = "secondon ()" class = "start1 h3 border-0">On</button></div>
               <div class = "col ps-0"> 
-              <button id = "inputB" onclick = "inputB(); flipflop(); flipy ()" class ="start1 h3 border-0">Input B</button></div>
+              <button id = "inputB" onclick = "secondoff ()" class ="start1 h3 border-0">Off</button></div>
              </div>
               <div class= "row">
                   <div class = "col">

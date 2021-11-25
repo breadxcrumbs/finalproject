@@ -223,8 +223,12 @@ function inputB () {
 }
 let flip = false;
 function flipy () {
-    flip = !flip;
+    flip = true;
 }
+function flopy () {
+    flip=false;
+}
+
 
 function and ()
 {
@@ -290,27 +294,18 @@ document.getElementById("notgate").src = "realnot1.JPG";
 else
 document.getElementById("notgate").src = "realnot2.JPG";
 }
-function flipflop ()
-{
-    var flip
-    if (bool == true && bool2 == false) 
+function firston () {
     document.getElementById("flipgate").src = "flip2.JPG";
-    
-    else if (bool == false && bool2 == false)
-    document.getElementById("flipgate").src = "flip3.JPG";
-else if (bool == true && bool2 == true && flip == true)
-
-document.getElementById("flipgate").src = "flip6.JPG";
-
-    else if (bool == true && bool2 == true)
-document.getElementById("flipgate").src = "flip4.JPG";
-else if (bool == false && bool2 == true)
-document.getElementById("flipgate").src = "flip5.JPG";
-
-
 }
-
-
+function firstoff () {
+    document.getElementById("flipgate").src = "flip3.JPG";
+}
+function secondon () {
+    document.getElementById("flipgate").src = "flip5.JPG";
+}
+function secondoff () {
+    document.getElementById("flipgate").src = "flipflop1.JPG";
+}
 
 
 
